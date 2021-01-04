@@ -1,0 +1,19 @@
+nav > span {
+    padding-right: 15px;
+    font-size: 3rem;
+     color: aqua;
+}
+
+@media(max-width:768px){
+    .nav-link {
+        font-size: 9px;
+        padding-top: 10px;
+    }
+} 
+
+@media(max-width:425px){
+ 
+      nav > .nav-link {
+          display: none;
+      }
+}

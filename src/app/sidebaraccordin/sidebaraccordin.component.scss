@@ -1,0 +1,48 @@
+
+
+.myaccordion .card,
+.myaccordion  .card:last-child  .card-header{
+    border: none;
+}
+
+.card-header {
+    background-color: khaki;
+}
+
+.card-header:hover {
+    background-color:lavender;
+    text-decoration: none;
+    
+}
+
+.card-header > h5 > .btn-link {
+    text-decoration: none;
+}
+
+.card-body > .panel-body:hover {
+  
+     background-color: lavender;
+
+    
+}
+
+.card-body >  ul > li:hover {
+
+    background-color: lavender
+}
+
+.card-body > ul > li > a {
+    font-size: 12px;
+}
+
+
+.nav-link {
+    padding: 0.5rem 0.5rem !important;
+}
+
+@media(max-width:768px){
+    .btn-link  {
+        font-size: 10px;
+    }
+}
+
